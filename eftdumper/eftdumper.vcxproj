@@ -95,9 +95,6 @@
     <ClInclude Include="signatures.hpp" />
     <ClInclude Include="utilities.hpp" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="sigs.json" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

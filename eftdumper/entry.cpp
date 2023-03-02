@@ -47,7 +47,7 @@ BOOL WINAPI DllMain(HINSTANCE instance, std::uint32_t call_reason, void* reserve
 	switch (call_reason)
 	{
 		case DLL_PROCESS_ATTACH:
-			if (HANDLE handle = CreateThread(nullptr, NULL, start_dumping, instance, NULL, nullptr))
+			if (HANDLE handle = CreateThread(nullptr, 0, start_dumping, instance, 0, nullptr))
 			{
 				CloseHandle(handle);
 			}
