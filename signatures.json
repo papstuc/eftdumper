@@ -1,0 +1,9 @@
+[
+  {
+    "name": "game object manager",
+    "module": "UnityPlayer.dll",
+    "signature": "48 8B 05 ? ? ? ? C3 CC CC CC CC CC CC CC CC 48 8B 41 ? 48 85 C0",
+    "rva_offset": 3,
+    "rip_offset": 7
+  }
+]
